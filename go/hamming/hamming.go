@@ -1,8 +1,9 @@
-// Calculate the Hamming difference between two DNA strands
+// Package hamming calculates the Hamming difference between two DNA strands.
 package hamming
 
 import "fmt"
 
+// Distance returns the Hamming difference between 2 strings representing DNA strands.
 func Distance(a, b string) (int, error) {
 	if len(a) != len(b) {
 		return 0, fmt.Errorf("Sequence lengths don't match")
