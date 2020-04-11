@@ -1,4 +1,4 @@
-// print One for you one for me
+// Package twofer : print One for you one for me
 package twofer
 
 // ShareWith function to accept string name and print
